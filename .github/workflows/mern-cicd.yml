@@ -19,6 +19,6 @@ jobs:
           node-version: ${{ matrix.node.version }}
       - run: 
           npm ci
-          cd client 
+          cd frontend 
           npm i
           npm run build
