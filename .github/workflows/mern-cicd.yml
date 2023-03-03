@@ -1,4 +1,4 @@
-name:mern-cicd CI
+name: mern-cicd CI
 
 on:
   push:
