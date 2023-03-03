@@ -8,7 +8,7 @@ app.get("/names", (req, res) => {
   res.send("Saurabh Sharma web");
 });
 app.get("/", (req, res) => {
-  res.send("This is the web");
+  res.send("This is the web Hoem Page");
 });
 // change 
 app.listen(5000, () => {
