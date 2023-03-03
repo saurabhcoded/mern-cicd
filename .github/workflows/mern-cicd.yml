@@ -18,8 +18,8 @@ jobs:
         with:
           node-version: ${{ matrix.node.version }}
       - run: 
-          npm ci
-          pm2 restart all
-          pm2 save
+          npm ci &&
+          pm2 restart all &&
+          pm2 save &&
           sudo service nginx restart
 
